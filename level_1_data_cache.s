@@ -31,7 +31,6 @@ addi      r6, r4, loc_xor_crypt_xor - loc_key_start
 sth       r0, 0x0002(r6)
 
 # The modified instruction will not be visible to the instruction fetching mechanism because we do not update main memory
-sync
 icbi       0, r6
 isync
 
