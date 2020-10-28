@@ -1,2 +1,2 @@
-# Dolphin-Anti-Emulation
+# Dolphin Anti-Emulation
 A showcase of emulation inaccuracies in Dolphin.
